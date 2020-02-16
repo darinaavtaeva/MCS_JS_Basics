@@ -1,5 +1,5 @@
 function modulePower(num) {
-	return Math.abs(num**Math.floor(Math.random()*(10-0)+0));
+	return Math.abs(num**Math.floor(Math.random()*(10-1)+1));
 }
 
 console.log(modulePower(-3));

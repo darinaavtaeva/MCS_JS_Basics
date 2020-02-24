@@ -1,0 +1,20 @@
+@import url(reset.css);
+
+div {
+	height: 15px;
+}
+span {
+	color: grey;
+}
+h1 {
+	font-weight: bold;
+}
+.bitcoin {
+	background-color: red;
+	}
+.ethereum {
+	background-color: cornflowerblue;
+	}
+.litecoin {
+	background-color: turquoise;
+	}

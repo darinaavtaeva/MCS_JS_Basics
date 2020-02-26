@@ -8,17 +8,14 @@ let names = [
 		['обезьяна', 'рысь']
 	]
 ]
-let birds = names[0]
-let animals = names[1]
 
 
-birds.forEach((key) => {
-	console.log(key[0]);
-	console.log(key[1]);
-	console.log(key[2]);
+names.forEach((item) => {
+	item.forEach((key) => {
+		key.forEach((name) => {
+			console.log(name);
+		})
+	})
 })
 
-animals.forEach((key) => {
-	console.log(key[0]);
-	console.log(key[1]);
-})
+

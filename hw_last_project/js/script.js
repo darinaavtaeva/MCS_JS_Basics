@@ -14,7 +14,7 @@ window.addEventListener('load', function() {
 
 			let xhr = new XMLHttpRequest();
 
-			xhr.open('GET', url, false);
+			setTimeout(xhr.open('GET', url, false), 0);
 
 			xhr.send();
 
